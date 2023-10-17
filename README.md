@@ -40,6 +40,8 @@ I followed tutorials:
 <br>
 [Bootstrap doc](https://getbootstrap.com/docs/5.3/components/navbar/#nav)
 
+I also used AskBCS Learning Assistant to resolve problem with not loading background for hero and footer sections. It turns out the paths I used were absolut not relative. I dint't notice it before deployment as was using Live Server while working on the project.
+
 ## License 
 MIT
 
