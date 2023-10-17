@@ -20,7 +20,7 @@
 }
 
 .main-hero {
-    background-image: url(/images/hero-bg.jpg);
+    background-image: url("/images/hero-bg.jpg") !important;
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ h2, h3 {
 }
 
 footer {
-    background-image: url(/images/footer-bg.png);
+    background-image: url("/images/footer-bg.png");
     background-size: cover;
 }
 
