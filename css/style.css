@@ -1,0 +1,45 @@
+
+.my-nav {
+    background-color: rgb(8, 63, 119) !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-nav a {
+    color:  aliceblue ;
+}
+
+.my-nav i {
+    color: aliceblue;
+}
+
+.my-list a {
+    color: aliceblue;
+}
+
+.main-hero {
+    background-image: url(/images/hero-bg.jpg);
+    background-size: cover;
+}
+
+h2 {
+    background-color: rgb(8, 63, 119) !important;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-image: url(/images/footer-bg.png);
+    background-size: cover;
+}
+
+@media screen and (min-width: 1224px) {
+    .cardContainer {
+    display: flex;
+    }
+    
+    .card {
+    flex: 0 0 90%;
+    }
+}

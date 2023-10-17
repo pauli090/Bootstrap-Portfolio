@@ -20,7 +20,7 @@
 
 <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary my-nav" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">pauli090</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,21 +28,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">About Me</a>
-                    <a class="nav-link" href="#">Work</a>
-                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link" href="#work">Work</a>
+                    <a class="nav-link" href="#skills">What I want to learn</a>
+                    <a class="nav-link" href="#contactMe">Contact Me</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <section class="main-hero p-2">
+    <section class="main-hero p-3 pt-5">
         <div class="container text-center hero-background">
             <div class="row">
                 <div class="col-8 hero-copy">
-                    <h1 class="display-5 fw-bold">Paulina Zdunek</h1>
+                    <h1 class="display-5 fw-bold" id="aboutMe">Paulina Zdunek</h1>
                     <p class="col-md-12 fs-4">I just started learning programming three weeks ago. It hasn't been easy, and there are times when I feel overwhelmed. Despite that, I try not to give up and keep learning. If you have a moment, please take a look at my projects and see what I've accomplished so far.</p>
-                    <button class="btn btn-light btn-lg" type="button"><a href=#>Projects</a></button>
                 </div>
                 <div class="col-4 my-auto">
                     <div class="device-container">
@@ -53,9 +52,10 @@
         </div>
     </section>
 
-    <section class="my-work">
-        <div class="container-fluid">
-            <div class="row m-5">
+    <section class="my-work" id="work">
+        <h2 class="text-center py-3 mt-3"> Work </h2>   
+        <div class="container-fluid d-flex align-items-stretch">
+            <div class="row m-2">
                 <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
                     <div class="card" style="width: 18rem;">
                         <img src="images/portfolio-1.png" class="card-img-top" alt="black and white image with black caption 'pauli090' on the light blue background">
@@ -80,9 +80,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="images/portfolio-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Prework</h5>
+                        <p class="card-text">A simple project created to help bootcamp students remember most important information about HTML, Css, Java and GitHub.</p>
+                        <a href="#" class="btn btn-primary">Comming soon</a>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="images/portfolio-4.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">CSS Snippet</h5>
+                        <p class="card-text">A simple project created to help student remeber the exact syntax for favourure CSS code.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -100,8 +100,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="images/portfolio-5.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Rock Nation</h5>
+                        <p class="card-text">A first project created with usinh Bootstrap 5.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -110,15 +110,86 @@
                     <div class="card" style="width: 18rem;">
                         <img src="https://placehold.co/600x400/EEE/31343C" class="card-img-top" alt="place holder - gray ractangle">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Comming soon</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut feugiat augue. Proin ac congue leo.</p>
+                        <a href="#" class="btn btn-primary">Comming soon</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="my-skills bg-light" id="skills">
+        <div class="container-fluid">
+          <h2 class="mb-5 text-center py-3">What I want to learn</h2>
+          <div class="row">
+            <div class="col-lg-6">
+                <div class="skills-item ms-1 mb-5 mb-lg-0">
+                    <ul>
+                        <li>Be able to use in practice the necessary knowledge of web development with HTML, CSS, and JavaScript.</li>
+                        <li>Work across distributed teams using Git and GitHub.</li>
+                        <li>Use JavaScript, jQuery and React</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="skills-item ms-1 mb-5 mb-lg-0">
+                    <ul>
+                        <li>Organise code, having mastered the foundations of object-oriented and functional programming paradigms.</li>
+                        <li>Deploy web-based applications using Netlify.</li>
+                        <li>Prepare a professional portfolio of front-end development work.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contactMe">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="bi bi-house"></i>
+                  <h4 class="text-uppercase">Adress</h4>
+                  <div class="small text-black-50">4923 Market Street, Sacramento,</div>
+                </div>
+              </div>
+            </div>
     
+            <div class="col-md-4">
+              <div class="card py-4">
+                <div class="card-body text-center">
+                  <i class="bi bi-envelope"></i>
+                  <h4 class="text-uppercase">Email</h4>
+                  <div class="small text-black-50">hello@california.com</div>
+                </div>
+              </div>
+            </div>
+    
+             <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="bi bi-phone"></i>
+                  <h4 class="text-uppercase">Phone</h4>
+                  <div class="small text-black-50">+1 (800) CALI-FORNIA </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer class="contact-section bg-black p-3" id="contactMe">
+        <h3 class="text-center">Contact Me</h3>
+        <div class="container contact">
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="tel:000000000"><i class="fab fa-twitter"></i>000-000-000</a>
+                <a class="mx-2" href="mailto: abc@example.com"><i class="fa-regular fa-envelope"></i>sample@gmail.com</a>
+                <a class="mx-2" href="https://github.com/pauli090"><i class="fa-brands fa-github"></i>GitHub</a>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
